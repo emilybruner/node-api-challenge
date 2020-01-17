@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    Express Middleware and Express Routers
+
 - [ ] Describe Middleware?
+
+    Middleware is like an array of functions that get executed in the order they are introduced into the server code. Express middleware is compatible with connect middleware. 
 
 - [ ] Describe a Resource?
 
+    A resource is some informaation that the client wants to have/use. Endpoints are used to access resources. 
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+    The API can return http codes and messages
+
 - [ ] How can we partition our application into sub-applications?
+
+    Express routers are a good way to split an application into sub-applications by making it more modular and easier to maintain and reason about
 
 ## Minimum Viable Product
 
